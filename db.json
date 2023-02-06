@@ -1,0 +1,67 @@
+{
+    "stock": [
+      {
+        "id": 1,
+        "amount": 3
+      },
+      {
+        "id": 2,
+        "amount": 5
+      },
+      {
+        "id": 3,
+        "amount": 2
+      },
+      {
+        "id": 4,
+        "amount": 1
+      },
+      {
+        "id": 5,
+        "amount": 5
+      },
+      {
+        "id": 6,
+        "amount": 10
+      }
+    ],
+    "products": [
+      {
+        "id": 1,
+        "title": "Terço Poderoso Sagrado Coração de Jesus em Jade Rosa Rede Vida",
+        "price": 20,
+        "image": "https://http2.mlstatic.com/D_NQ_NP_627686-MLB40404247750_012020-O.jpg"
+      },
+      {
+        "id": 2,
+        "title": "Terço da Divina Providência Madeira com Folheto de Oração",
+        "price": 139.9,
+        "image": "https://images-americanas.b2w.io/produtos/1255013313/imagens/terco-da-divina-providencia-madeira-com-folheto-de-oracao/1255013321_1_large.jpg"
+      },
+      {
+        "id": 3,
+        "title": "Crucifixo De Parede Em Madeira Moldado Imbuia Ouro Velho 25 Cm",
+        "price": 40,
+        "image": "https://static3.tcdn.com.br/img/img_prod/103175/crucifixo_de_parede_em_madeira_moldado_imbuia_ouro_velho_25_cm_12447_1_20190824140918.jpg"
+      },
+      {
+        "id": 5,
+        "title": "Terço Mãe da Divina Misericórdia Madeira com Porta Terço",
+        "price": 45,
+        "image": "https://images.tcdn.com.br/img/img_prod/666632/terco_mae_da_divina_misericordia_madeira_com_porta_terco_1005159_1_c8380330379ff9e1b8b534ba9d4c3a42.jpg"
+      },
+      {
+        "id": 6,
+        "title": "Medalha Milagrosa - Dourada/azul resinado (20mm) - Milicia da Imaculada",
+        "price": 5.5,
+        "image": "https://cdn.awsli.com.br/1000x1000/1331/1331079/produto/62240935/15ef60877f.jpg"
+      },
+      {
+        "id": 4,
+        "title": "Escapulário Masculino Semijoia",
+        "price": 122.9,
+        "image": "https://loja.cancaonova.com/media/catalog/product/cache/411e1016ff9a7545e4eaf40186cc53b5/0/4/04.06260.atualizado.jpg"
+      }
+    ]
+  }
+  
