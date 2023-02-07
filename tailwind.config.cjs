@@ -19,7 +19,8 @@ module.exports = {
       'montserrat': ['Montserrat'],
       'opensans': ['Open Sans'],
       'roboto': ['Roboto'],
-      'poppins': ['Poppins']
+      'poppins': ['Poppins'],
+      'lato': ['Lato']
     }
   },
   plugins: [],

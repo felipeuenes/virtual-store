@@ -43,7 +43,7 @@ export function App() {
   return (
     <div className="w-screen flex flex-col gap-16">
       <Header />
-      <section className="w-full flex items-center justify-center">
+      <section className="w-full flex items-center justify-center py-10">
         <ul className="grid grid-cols-3 gap-5">
           {products.map((product) => {
             return (
