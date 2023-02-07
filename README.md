@@ -6,9 +6,13 @@
 
 A aplicação consiste em uma loja virtual para artigos religiosos.
 
+## Status
+
+Em conclusão
+
 ## Layout web
 
-https://front-virtual-store.herokuapp.com/
+https://virtual-store-git-main-devjoedson91.vercel.app/
 
 ## Tecnologias utilizadas
 
