@@ -11,7 +11,8 @@ module.exports = {
         aColor: '#FBB448',
       },
       backgroundImage: {
-        header: "url('./src/assets/background-header.jpg')"
+        header: "url('src/assets/background-header.jpg')",
+        footer: "url('https://raw.githubusercontent.com/devjoedson91/projeto-ruah/main/public/images/fundo.jpg')"
       }
     },
     fontFamily: {
