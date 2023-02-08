@@ -8,7 +8,7 @@ A aplicação consiste em uma loja virtual para artigos religiosos.
 
 ## Status
 
-Em conclusão
+Fase inicial
 
 ## Layout web
 
