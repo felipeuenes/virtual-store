@@ -1,16 +1,17 @@
 import { MdShoppingBasket, MdMenu, MdClose } from "react-icons/md";
+import { Link } from "react-router-dom";
 
 export function NavBar() {
   return (
     <nav className="w-full h-24 flex items-center justify-between bg-transparent border-b border-zinc-600 z-[1] px-5 py-0">
       <ul className="flex ">
         <li>
-          <a
-            href="/"
+          <Link
+            to="/"
             className="text-base uppercase text-white text-center my-0 mx-[50px] py-[5px] px-[10px] hover:opacity-70 font-montserrat"
           >
             Home
-          </a>
+          </Link>
         </li>
         <li>
           <a
@@ -21,15 +22,15 @@ export function NavBar() {
           </a>
         </li>
         <li>
-          <a
-            href="/contact"
+          <Link
+            to="/contact"
             className="text-base uppercase text-white text-center my-0 mx-[50px] py-[5px] px-[10px] hover:opacity-70 font-montserrat"
           >
             Contato
-          </a>
+          </Link>
         </li>
       </ul>
-      <a href="/cart">
+      <Link to="/cart">
         <div className="flex items-center">
           <div className="text-right mr-3">
             <strong className="text-white block">Meu carrinho</strong>
@@ -37,7 +38,7 @@ export function NavBar() {
           </div>
           <MdShoppingBasket size={36} color="#13ce22" />
         </div>
-      </a>
+      </Link>
     </nav>
   );
 }

@@ -4,6 +4,7 @@ import {
   MdPhoneEnabled,
   MdOutlineMailOutline,
 } from "react-icons/md";
+import { Footer } from "../components/Footer";
 
 export function Contact() {
   return (
