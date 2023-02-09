@@ -1,7 +1,9 @@
 import { useLayoutEffect, useState } from "react";
-import { Header } from "../components/Header";
+
 import { MdAddShoppingCart } from "react-icons/md";
-import { formatPrice } from "../util/format";
+import { Cards } from "../../components/Cards";
+import { formatPrice } from "../../util/format";
+import './Home.css'
 
 interface Product {
   id: number;
@@ -41,7 +43,7 @@ export function Home() {
 
   return (
     <div className="w-screen flex flex-col gap-16">
-      <Header />
+    
       <section className="w-full flex items-center justify-center py-10">
         <ul className="grid grid-cols-3 gap-5">
           {products.map((product) => {
@@ -79,6 +81,13 @@ export function Home() {
           })}
         </ul>
       </section>
+
+      <div className="corpo">
+        <h1>Nossos produtos</h1>
+          <Cards texto="Terço São Bento Preto Fosco 8mm Com Fé Brasil" image='https://m.media-amazon.com/images/I/51P5zpGWxYL._AC_SX522_.jpg'/>
+          <Cards texto="Terço dos Mistérios do Rosário Imbuia" image={'https://loja.cancaonova.com/media/catalog/product/8/4/84.01051.jpg?optimize=high&bg-color=255,255,255&fit=bounds&height=140&width=140&canvas=140:140'}/>
+          <Cards texto="Imagem De São Miguel Arcanjo De Borracha 33cm " image={'https://m.media-amazon.com/images/I/612gIqJJRPL._AC_SX425_.jpg'}/>
+      </div>
     </div>
   );
 }

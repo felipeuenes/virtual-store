@@ -1,5 +1,8 @@
 import { MdShoppingBasket, MdMenu, MdClose } from "react-icons/md";
 import { Link } from "react-router-dom";
+import { Input } from "antd";
+
+
 
 export function NavBar() {
   return (
@@ -15,7 +18,7 @@ export function NavBar() {
         </li>
         <li>
           <a
-            href="/about"
+            href="/aboud"
             className="text-base uppercase text-white text-center my-0 mx-[50px] py-[5px] px-[10px] hover:opacity-70 font-montserrat"
           >
             Sobre
@@ -28,6 +31,10 @@ export function NavBar() {
           >
             Contato
           </Link>
+        </li>
+        <li>
+            <Input type="text" placeholder="O que procura?" style={{width: 350}}/>
+            <button>Pesquisar</button>
         </li>
       </ul>
       <Link to="/cart">

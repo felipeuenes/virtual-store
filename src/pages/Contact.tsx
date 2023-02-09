@@ -1,4 +1,4 @@
-import { Header } from "../components/Header";
+
 import {
   MdLocationOn,
   MdPhoneEnabled,
@@ -9,7 +9,7 @@ import { Footer } from "../components/Footer";
 export function Contact() {
   return (
     <>
-      <Header />
+      
       <div className="max-w-[1100px] relative my-0 mx-auto py-0 px-4">
         <div className="grid grid-cols-2 gap-10 relative px-4 min-h-[1px] mx-auto my-24">
           <div>

@@ -1,0 +1,40 @@
+.cards{
+    display: inline-block;
+    
+    
+}
+
+.card{
+    margin-left: 52px;
+    width: 200px;
+    height: 350px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.315);
+    border-radius: 16px;
+    margin-top: 32px;
+}
+
+.card:hover{
+    transform: scale(1.03);
+    transition: 0.3s;
+}
+
+.card .card-top{
+    width: 80%;
+    height: 40%;
+   
+}
+.card .card-bottom{
+    margin-top: 130px;
+}
+
+.card-bottom h3{
+    font-weight: 700;
+}
+
+
+#images{
+    
+    text-align: center;
+    height: 250px;
+    margin: 0 auto;
+}
